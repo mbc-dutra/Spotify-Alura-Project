@@ -1,9 +1,6 @@
 const searchInput = document.getElementById('search_input');
 const resultArtist = document.getElementById('result_artist');
 const resultPlaylist = document.getElementById('result_playlist');
-const textGreeting = document.getElementById('greeting')
-const date = new Date()
-const hours = date.getHours()
 
 function requestApi(searchTerm) {
     const url = `http://localhost:3500/myartists?name_like=${searchTerm}`
@@ -36,11 +33,3 @@ document.addEventListener('input', function() {
 
     requestApi(searchTerm);
 })
-
-if(hours < 12){
-textGreeting.innerText = "Bom dia!" + "Matheus" + "O que vai ouvir hoje?"
-} else if(hours < 18){
-textGreeting.innerText = "Boa tarde," + " " + "Matheus" + "!" + " " + "O que vai ouvir hoje?"
-} else{ 
-textGreeting.innerText = "Boa noite," + " " + "Matheus" + "!" + " " + "O que vai ouvir hoje?"
-}

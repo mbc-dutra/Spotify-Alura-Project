@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Imersão</title>
-    <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/vars.css" />
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
@@ -27,7 +26,7 @@
     <div class="sidebar">
       <nav class="sidebar__navigation">
         <div class="logo">
-          <a href="http://127.0.0.1:5500/index.html">
+          <a href="">
             <img
               src="./src/assets/icons/logo-spotify.png"
               alt="Logo do spotify"
@@ -67,7 +66,7 @@
           </div>
         </section>
         <div class="cookies">
-          <a href="">cookies</a>
+          <a href="">batata</a>
         </div>
         <div class="languages">
           <button class="languages_button">
@@ -111,7 +110,8 @@
       <div class="playlist_container">
         <div id="result_playlist">
           <div class="playlist">
-            <h1 id="greeting"></h1>
+            <h1 id="greeting">Boa Noite, Matheus!</h1>
+            <h3 id="taste_song">O que gostaria de ouvir hoje?</h3>
             <h2 class="session">Navegar por todas as seções</h2>
           </div>
           <div class="offer_scroll_container">
@@ -155,44 +155,44 @@
                 </a>
                 <a href="" class="cards">
                   <div class="cards card7">
-                    <img src="./src/assets/icons-play/bloodborne.jpg" alt="" />
-                    <span>Games</span>
+                    <img src="./src/assets/playlist/7.jpeg" alt="" />
+                    <span>Sertanejo</span>
                   </div>
                 </a>
                 <a href="" class="cards">
-                  <div clanpmss="cards card8">
-                    <img src="./src/assets/icons-play/communityIcon_hywwdpihzcva1.png" alt="" />
-                    <span>J-Rock</span>
+                  <div class="cards card8">
+                    <img src="./src/assets/playlist/8.jpeg" alt="" />
+                    <span>Samba e pagode</span>
                   </div>
                 </a>
                 <a href="" class="cards">
                   <div class="cards card9">
-                    <img src="./src/assets/icons-play/spinninrecords.jpg" alt="" />
-                    <span>Eletrônica</span>
+                    <img src="./src/assets/playlist/9.jpeg" alt="" />
+                    <span>Funk</span>
                   </div>
                 </a>
                 <a href="" class="cards">
                   <div class="cards card10">
-                    <img src="./src/assets/icons-play/ab67616d0000b2736da2cb23adbf629c1a3f055a.jfif" alt="" />
-                    <span>POP</span>
+                    <img src="./src/assets/playlist/10.jpeg" alt="" />
+                    <span>MPB</span>
                   </div>
                 </a>
                 <a href="" class="cards">
                   <div class="cards card11">
-                    <img src="./src/assets/icons-play/images.jfif" alt="" />
+                    <img src="./src/assets/playlist/11.jpeg" alt="" />
                     <span>Rock</span>
                   </div>
                 </a>
                 <a href="" class="cards">
                   <div class="cards card12">
-                    <img src="./src/assets/icons-play/imagespeep.jfif" alt="" />
-                    <span>Rap</span>
+                    <img src="./src/assets/playlist/12.jpeg" alt="" />
+                    <span>Hip Hop</span>
                   </div>
                 </a>
                 <a href="" class="cards">
                   <div class="cards card13">
-                    <img src="./src/assets/icons-play/unnamedgeek.jpg" alt="" />
-                    <span>Geek</span>
+                    <img src="./src/assets/playlist/13.jpeg" alt="" />
+                    <span>Indie</span>
                   </div>
                 </a>
                 <a href="" class="cards">
@@ -203,8 +203,8 @@
                 </a>
                 <a href="" class="cards">
                   <div class="cards card15">
-                    <img src="./src/assets/icons-play/375x375bb.jpg" alt="" />
-                    <span>Música Russa</span>
+                    <img src="./src/assets/playlist/15.jpeg" alt="" />
+                    <span>Música Latina</span>
                   </div>
                 </a>
               </section>
@@ -221,7 +221,7 @@
                 </div>
               </div>
               <div class="card_text">
-                <a title="" class="vst" href="">
+                <a title="Foo Fighters" class="vst" href="">
                   <span class="artist_name" id="artist_name"></span>
                   <span class="artist_categorie">Artista</span>
                 </a>
@@ -234,7 +234,7 @@
     </main>
     <footer class="disclaimer_premium">
       <div class="text">
-        <p class="disclaimer_premium_title">Testar premium de graça</p>
+        <p class="disclaimer_premium_title">Testar o prêmio de graça</p>
         <p class="disclaimer_premium_subtitle">
           Inscreva-se para curtir música ilimitada e podcasts só com alguns
           anúncios. Não precisa de cartão de crédito.
